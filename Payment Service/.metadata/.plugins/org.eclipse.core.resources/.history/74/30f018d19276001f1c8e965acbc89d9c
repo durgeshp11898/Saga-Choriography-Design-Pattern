@@ -1,0 +1,5 @@
+package com.durgesh.learn.config;
+
+public class PaymentConsumerConfig {
+
+}

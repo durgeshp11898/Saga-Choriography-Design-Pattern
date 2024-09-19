@@ -1,0 +1,5 @@
+package com.durgesh.learn.entity.service;
+
+public class PaymentService {
+
+}

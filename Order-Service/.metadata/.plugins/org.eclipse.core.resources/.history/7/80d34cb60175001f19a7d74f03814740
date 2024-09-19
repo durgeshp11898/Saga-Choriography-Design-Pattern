@@ -1,0 +1,5 @@
+package com.durgesh.learn.enumm;
+
+public class PaymentStatus {
+
+}
