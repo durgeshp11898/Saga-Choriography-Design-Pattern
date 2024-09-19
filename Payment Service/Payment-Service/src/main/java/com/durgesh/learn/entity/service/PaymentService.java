@@ -3,6 +3,8 @@ package com.durgesh.learn.entity.service;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -27,6 +29,9 @@ public class PaymentService {
 	@Autowired
 	private UserTransactionRepository userTransactionRepository;
 
+	private static final Logger logger = LoggerFactory.getLogger(PaymentService.class);
+
+	
 	@PostConstruct
 	public void initUserBalanceInDB() {
 		userBalanceRepository.saveAll(Stream.of(new UserBalance(101, 5000),
@@ -46,6 +51,8 @@ public class PaymentService {
 	public PaymentEvent newOrderEvent(OrderEvent orderEvent) {
 		OrderRequestDto orderRequestDto = orderEvent.getOrderRequestDto();
 
+		logger.info("newOrderEvent: "+orderRequestDto.toString());
+		
 		PaymentRequestDto paymentRequestDto = new PaymentRequestDto(orderRequestDto.getOrderId(),
 				orderRequestDto.getUserId(), orderRequestDto.getAmount());
 
