@@ -31,6 +31,7 @@ public class OrderService {
 
 		logger.info("createOrder: "+orderRequestDto.toString());
 		PurchaseOrder order = orderRepository.save(convertDtoToEntity(orderRequestDto));
+		
 		orderRequestDto.setOrderId(order.getId());
 		logger.info("createOrder: "+orderRequestDto.getOrderId());
 

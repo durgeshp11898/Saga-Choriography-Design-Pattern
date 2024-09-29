@@ -299,3 +299,14 @@
 2024-09-19 20:56:27,467 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
 2024-09-19 20:56:27,606 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-09-19 20:56:27,617 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Learn Code with Durgesh\Microservices\Design Pattern\Saga\Order-Service\Order-Service\src\test\resources
+2024-09-28 16:39:12,519 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-09-28 18:55:31,024 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-09-28 18:55:51,948 [Worker-1: Launching Order-Service - OrderServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-09-28 18:55:51,998 [Worker-1: Launching Order-Service - OrderServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-28 18:55:52,005 [Worker-1: Launching Order-Service - OrderServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Learn Code with Durgesh\Microservices\Design Pattern\Saga\Order-Service\Order-Service\src\test\resources
+2024-09-28 19:32:16,269 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-09-28 19:32:16,302 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-28 19:32:16,306 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Learn Code with Durgesh\Microservices\Design Pattern\Saga\Order-Service\Order-Service\src\test\resources
+2024-09-28 21:43:52,480 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-09-28 21:43:53,593 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-28 21:43:53,626 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Learn Code with Durgesh\Microservices\Design Pattern\Saga\Order-Service\Order-Service\src\test\resources

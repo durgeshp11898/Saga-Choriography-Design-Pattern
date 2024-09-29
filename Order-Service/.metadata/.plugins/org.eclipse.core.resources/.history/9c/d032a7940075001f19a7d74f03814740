@@ -1,5 +1,0 @@
-package com.durgesh.learn.dto;
-
-public class OrderRequestDto {
-
-}

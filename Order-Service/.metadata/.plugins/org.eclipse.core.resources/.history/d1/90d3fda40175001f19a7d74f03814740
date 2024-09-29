@@ -1,5 +1,0 @@
-package com.durgesh.learn.event;
-
-public class PaymentEvent {
-
-}

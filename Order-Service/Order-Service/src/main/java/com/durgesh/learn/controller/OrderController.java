@@ -31,6 +31,7 @@ public class OrderController {
 
 	@PostMapping("/create")
 	public ResponseEntity<?> createOrder(@Valid @RequestBody OrderRequestDto orderRequestDto) {
+		
 		logger.info("Received createOrder request for userId: {}, productId: {}, amount: {}", 
 				orderRequestDto.getUserId(), orderRequestDto.getProductId(), orderRequestDto.getAmount());
 
