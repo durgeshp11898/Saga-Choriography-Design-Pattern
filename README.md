@@ -2,6 +2,8 @@ Saga Choreography Design Pattern in Microservices
 Description:
 This repository demonstrates the Saga Choreography Design Pattern in a microservices architecture. Saga is a design pattern used to manage distributed transactions in a microservices system, ensuring consistency without relying on a central transaction coordinator. Choreography involves each service executing its transaction and publishing an event, triggering the next service to act, creating a distributed sequence of events.
 
+
+
 Tech Stack:
 Java
 Spring Boot
